@@ -1,3 +1,5 @@
+![NuGet Version](https://img.shields.io/nuget/v/YouPackSumahowari.Net)
+
 ## Usage
 ```cs
 using YouPackSumahowari.Net;
