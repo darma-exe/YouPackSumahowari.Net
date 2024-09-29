@@ -4,9 +4,9 @@ using YouPackSumahowari.Net;
 using YouPackSumahowari.Net.Models;
 using YouPackSumahowari.Net.Models.Enums;
 
-var yuPack = new SumahowariClient();
+var youPack = new SumahowariClient();
 
-var postOffice = await yuPack.FindPostOfficeAsync("東京都庁内郵便局");
+var postOffice = await youPack.FindPostOfficeAsync("東京都庁内郵便局");
 
 var shipper = new AddressDetail
 {
@@ -49,11 +49,11 @@ var product = new Product
 };
 var label = new Label("NORMAL", shipper, consignee, product, postOffice);
 
-await yuPack.LoginAsync("abc@example.com", "password");
+await youPack.LoginAsync("abc@example.com", "password");
 
-var (registerLabelResult, labelHeaderID, registerLabelErrorCode, registerLabelErrorMessage) = await yuPack.RegisterLabelAsync(label);
+var (registerLabelResult, labelHeaderID, registerLabelErrorCode, registerLabelErrorMessage) = await youPack.RegisterLabelAsync(label);
 
-var (registerPaymentResult, registerPaymentErrorCode, registerPaymentErrorMessage) = await yuPack.RegisterLabelPaymentAsync(labelHeaderID, "1217");
+var (registerPaymentResult, registerPaymentErrorCode, registerPaymentErrorMessage) = await youPack.RegisterLabelPaymentAsync(labelHeaderID, "1217");
 
-var (base64QR, qrErrorCode, qrErrorMessage) = await yuPack.GetLabelQRAsync(labelHeaderID);
+var (base64QR, qrErrorCode, qrErrorMessage) = await youPack.GetLabelQRAsync(labelHeaderID);
 ```
