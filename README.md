@@ -1,4 +1,4 @@
-![NuGet Version](https://img.shields.io/nuget/v/YouPackSumahowari.Net)
+![NuGet Version](https://img.shields.io/nuget/v/YouPackSumahowari.Net?link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FYouPackSumahowari.Net%2F%23versions-body-tab)
 
 ## Usage
 ```cs
