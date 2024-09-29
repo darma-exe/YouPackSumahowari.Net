@@ -1,6 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouPackSumahowari.Net", "YouPackSumahowari.Net\YouPackSumahowari.Net.csproj", "{1A6B6254-F870-4431-B1E0-1ACE3DED6F97}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouPackSumahowari.Net", "YouPackSumahowari.Net\YouPackSumahowari.Net.csproj", "{1A6B6254-F870-4431-B1E0-1ACE3DED6F97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{1ECE2AE3-53CD-400C-B71F-68647AC87591}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +20,8 @@ Global
 		{1A6B6254-F870-4431-B1E0-1ACE3DED6F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A6B6254-F870-4431-B1E0-1ACE3DED6F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A6B6254-F870-4431-B1E0-1ACE3DED6F97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
