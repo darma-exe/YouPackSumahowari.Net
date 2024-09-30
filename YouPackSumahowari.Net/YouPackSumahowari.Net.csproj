@@ -9,6 +9,7 @@
         <Copyright>© 2024 wh3at. Licensed under the MIT License.</Copyright>
         <PackageProjectUrl>https://github.com/darma-exe/YouPackSumahowari.Net</PackageProjectUrl>
         <RepositoryUrl>https://github.com/darma-exe/YouPackSumahowari.Net</RepositoryUrl>
+        <Version>1.0.1</Version>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
