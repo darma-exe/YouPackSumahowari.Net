@@ -1,5 +1,13 @@
 [![NuGet Version](https://img.shields.io/nuget/v/YouPackSumahowari.Net)](https://www.nuget.org/packages/YouPackSumahowari.Net/#versions-body-tab)
 
+Unofficial C# client for Japan Post's mobile application “ゆうパックスマホ割”.
+
+## Installation
+Install via the NuGet Package Manager:
+```
+Install-Package YouPackSumahowari.Net
+```
+
 ## Usage
 ```cs
 using YouPackSumahowari.Net;
