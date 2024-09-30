@@ -10,6 +10,7 @@
         <PackageProjectUrl>https://github.com/darma-exe/YouPackSumahowari.Net</PackageProjectUrl>
         <RepositoryUrl>https://github.com/darma-exe/YouPackSumahowari.Net</RepositoryUrl>
         <Version>1.0.1</Version>
+        <Description>Unofficial C# client for Japan Post's mobile application “ゆうパックスマホ割”.</Description>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
