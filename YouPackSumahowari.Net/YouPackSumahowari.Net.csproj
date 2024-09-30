@@ -7,6 +7,8 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Authors>wh3at</Authors>
         <Copyright>© 2024 wh3at. Licensed under the MIT License.</Copyright>
+        <PackageProjectUrl>https://github.com/darma-exe/YouPackSumahowari.Net</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/darma-exe/YouPackSumahowari.Net</RepositoryUrl>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
