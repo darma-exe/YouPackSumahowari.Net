@@ -1,3 +1,4 @@
+
 [![NuGet Version](https://img.shields.io/nuget/v/YouPackSumahowari.Net)](https://www.nuget.org/packages/YouPackSumahowari.Net/#versions-body-tab)
 
 Unofficial C# client for Japan Post's mobile application “ゆうパックスマホ割”.
@@ -15,6 +16,7 @@ using YouPackSumahowari.Net.Models;
 using YouPackSumahowari.Net.Models.Enums;
 
 var youPack = new SumahowariClient();
+youPack.ApiVersion = 38;
 
 var postOffice = await youPack.FindPostOfficeAsync("東京都庁内郵便局");
 
